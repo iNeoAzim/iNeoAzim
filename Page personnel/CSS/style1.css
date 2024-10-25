@@ -1,0 +1,233 @@
+h1{
+    font-size: 40px;
+    color:white;background-color:#9f79bfdf;
+    font-family: 'Cabin Sketch', sans-serif;
+}
+
+body {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(94, 90, 90); 
+    background: linear-gradient(to left bottom,rgb(5, 5, 176), rgb(118, 10, 147));  
+}
+
+.table{
+    margin-left: 516px;   
+    color: white;
+    font-style:inherit;
+    font-size: 20px;
+    font-family: 'Cabin Sketch', sans-serif;
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+    font-style:normal;
+    font-family: 'Cabin Sketch', sans-serif;
+}
+
+a{
+    margin: 115px;    
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    font-style: inherit;
+    font-family: 'Cabin Sketch', sans-serif;
+}
+
+.mmi{
+    border: 2px solid #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.timeline-object {
+    display: flex;
+    align-items: center;
+    margin-bottom: 23px;
+    position: relative;
+    font-family: 'Cabin Sketch', sans-serif;
+}
+
+.timeline-object.complete::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 100px;
+    background-color: #00375c;
+    border: 2px solid #1d1b1b;
+    left: 27px;
+    top: 50px;
+    transform: translateX(-50%);
+    font-family: 'Cabin Sketch', sans-serif;
+}
+
+.timeline-status {
+    height: 25px;
+    width: 25px;
+    margin-left: 15px;
+    border-radius: 50%;
+    background-color:#0f8ebd;
+    border: 2px solid #1d1b1b;
+    font-family: 'Cabin Sketch', sans-serif;
+}
+
+.timeline-object:not(.complete) .timeline-status {
+    background: #ffffff;
+    border: 2px solid #1d1b1b;
+    font-family: 'Cabin Sketch', sans-serif;
+}
+
+.timeline-content {
+    margin-left: 25px;
+    font-family: 'Cabin Sketch', sans-serif;
+}
+  
+.timeline-content h2 {
+    color: #0f8ebd;
+    background: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-family: 'Cabin Sketch', sans-serif;
+}
+  
+.timeline-content span {
+    color: #ffffff;
+    font-size:22px;
+    font-weight: bold;
+    font-family: 'Cabin Sketch', sans-serif;
+}
+
+.timeline-object:not(.complete) .timeline-content h3 {
+    color: #8A8A8A;
+    background: #E1E1DF;
+    font-family: 'Cabin Sketch', sans-serif;
+}
+
+.imglycee{
+    position: absolute;
+    top: 300px; 
+    left: 900px;
+    border: 2px solid #ffffff
+}
+
+.liendulycee {
+    color:white; 
+    position: absolute;
+    top: 390px; 
+    right: 5px; 
+    padding: 5px 10px;
+    text-decoration: none; 
+    font-size: 15px;
+}
+
+.tableau{
+  text-align: center;
+  width: 80%;
+  margin-left: 125px;
+  font-family: 'Cabin Sketch', sans-serif;
+
+}
+
+th {
+  background-color:white;
+  border: 2px solid white;
+  padding: 10px; 
+  font-family: 'Cabin Sketch', sans-serif;
+}
+
+.ligne{
+  border: 2px solid #ffffff;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Cabin Sketch', sans-serif;
+}
+
+.p1{
+   font-family: 'Cabin Sketch', sans-serif;
+   color: white;
+   margin-left: 20px;
+   font-size: 20px;
+}
+
+.imgbm{
+    position: absolute;
+    top: 250px; 
+    left: 900px;
+}
+
+.liendebabou{
+    color:black; 
+    position: absolute;
+    top: 360px; 
+    right: 40px; 
+    padding: 5px 10px;
+    text-decoration: none; 
+    font-size: 15px;  
+}
+
+.p2{
+    font-family: 'Cabin Sketch', sans-serif;
+    color: white;
+    text-align: right;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.imgpro{
+    position: absolute;
+    top: 550px; 
+    right: 860px;
+}
+
+.p3{
+    font-family: 'Cabin Sketch', sans-serif;
+    color: white;
+    text-align:center;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.imggmail{
+    position: absolute;
+    top: 350px; 
+    left: 850px;
+}
+
+.imgdiscord{
+    position: absolute;
+    top: 350px; 
+    right: 850px;
+
+}
+
+.imgspotify{
+    position: absolute;
+    top: 480px; 
+    right: 170px;
+}
+
+.imgiut{
+    position: absolute;
+    top: 480px; 
+    left: 170px;
+}
+
+.imgytb{
+    position: absolute;
+    top: 590px; 
+    right: 400px;
+}
+
+.imgaz{
+    position: absolute;
+    top: 600px; 
+    left: 400px;
+}
